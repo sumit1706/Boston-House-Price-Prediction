@@ -4,7 +4,7 @@ The problem that we are going to solve here is that given a set of features that
 In this dataset, each row describes a boston town or suburb. There are 506 rows and 13 attributes (features) with a target column (price).
 Given a list of attributes of the household, the goal is to predict the monetary value of any house located in Boston city. The features can be summarized as follows:
 
- CRIM: This is the per capita crime rate by town
+ CRIM: This is the per capita crime rate by town<br>
  ZN: This is the proportion of residential land zoned for lots larger than 25,000 sq.ft.
  INDUS: This is the proportion of non-retail business acres per town.
  CHAS: This is the Charles River dummy variable (1 if tract bounds river; 0 otherwise)
