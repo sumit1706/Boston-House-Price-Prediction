@@ -17,4 +17,5 @@ Given a list of attributes of the household, the goal is to predict the monetary
  PTRATIO: This is the pupil-teacher ratio by town<br>
  B: B =1000(BK — 0.63)², where BK is African American people proportion descent by town<br>
  LSTAT: This is the percentage lower status of the population<br>
- MEDV: This is the median value of owner-occupied homes in $1000s (Target Variable)
+ MEDV: This is the median value of owner-occupied homes in $1000s (Target Variable) <br>
+ (Python, Jupyter Notebook, Pandas, Matplotlib, Scikit Learn)
