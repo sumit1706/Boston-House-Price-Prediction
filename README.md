@@ -19,3 +19,6 @@ Given a list of attributes of the household, the goal is to predict the monetary
  LSTAT: This is the percentage lower status of the population<br>
  MEDV: This is the median value of owner-occupied homes in $1000s (Target Variable) <br>
  (Build using : Python, Jupyter Notebook, Pandas, Matplotlib, Scikit Learn)
+
+insert into VDBMasterFaceData
+select id, CustId, SiteId, Source, Embeddings, ImageName, ImageURL, Time, CreatedBy, UpdatedBy, CreatedAt, UpdatedAt, 0, 0, RoiName, 0 from MasterFaceData where CustId = 'ec31bced-abca-4888-a501-f41a9318bafa'
